@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "181658285510",
+    "firebase_url": "https://drone-delivery-c012e.firebaseio.com",
+    "project_id": "drone-delivery-c012e",
+    "storage_bucket": "drone-delivery-c012e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181658285510:android:1b0d4894ff2c813e6aeec7",
+        "android_client_info": {
+          "package_name": "com.hvr.dronedelievery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181658285510-7hm39rjclqkvous0uod3q65qfkorceop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hvr.dronedelievery",
+            "certificate_hash": "e5b35b7f266bc7d4f95ab9724283da4482a68f9c"
+          }
+        },
+        {
+          "client_id": "181658285510-2bgbbnrcct9kesk8g362ktticttvg4fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQCsi9M8GnxJ-Xid4UmzUfX9L_7HsxPVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181658285510-2bgbbnrcct9kesk8g362ktticttvg4fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

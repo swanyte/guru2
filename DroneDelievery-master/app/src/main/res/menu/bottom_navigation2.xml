@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/home_black"
+        android:title=""/>
+
+    <item
+        android:id="@+id/action_foodheart"
+        android:enabled="true"
+        android:icon="@drawable/heart_empty"
+        android:title=""/>
+
+    <item
+        android:id="@+id/action_pastorder"
+        android:enabled="true"
+        android:icon="@drawable/order_past"
+        android:title=""/>
+
+</menu>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".drop_down2">
+
+    <LinearLayout
+        android:id="@+id/constraintLayout13"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/corner_radius_gray1"/>
+
+        <ImageButton
+            android:id="@+id/button11"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/down"
+            android:layout_marginEnd="16dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="680dp">
+    <ImageView
+        android:id="@+id/constraintLayout14"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="390dp"
+        android:layout_height="10dp"
+        android:background="@drawable/corner_radius_gray2"
+        android:layout_marginBottom="15dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/drop_down2_item"
+        android:layout_width="match_parent"
+        android:layout_height="650dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/gohome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="125dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/home_black" />
+
+        <ImageButton
+            android:id="@+id/goheart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="125dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/drone_black" />
+
+        <ImageButton
+            android:id="@+id/goorderpage"
+            android:layout_width="30dp"
+
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/order_past" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

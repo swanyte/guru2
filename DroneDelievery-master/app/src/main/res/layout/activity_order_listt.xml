@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Order_listt">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20sp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <ImageButton
+
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="140dp"
+            android:textSize="18sp"
+            android:text="주문내역"
+            android:textColor="#000000"/>
+
+        <ImageButton
+            android:layout_marginLeft="130dp"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@drawable/mypage"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="@color/colorG2"
+            android:textColor="@color/colorG3"
+            android:gravity="center|left"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/order_list"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/gohome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="123dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/home_black" />
+
+        <ImageButton
+            android:id="@+id/goheart"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="128dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/drone_black" />
+
+        <ImageButton
+            android:id="@+id/goorderpage"
+            android:layout_width="30dp"
+
+            android:layout_height="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/order_past" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
